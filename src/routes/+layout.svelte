@@ -15,6 +15,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		align-items: center;
 	}
 
 	main {
@@ -24,7 +25,8 @@
 		padding: 1rem;
 		width: 100%;
 		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
+		/* margin: 0 auto; */
+		/* box-sizing: border-box; */
+		align-items: center;
 	}
 </style>
