@@ -1,0 +1,142 @@
+[
+  {
+    "timestamp": "2025-11-05T17:20:23.399Z",
+    "firstSystem": "coloured",
+    "trial1": {
+      "system": "coloured",
+      "prompt": "Book a table for 4 at 8:30PM",
+      "duration": 5383
+    },
+    "trial2": {
+      "system": "text",
+      "prompt": "Book a table for 4 at 5PM",
+      "duration": 5767
+    }
+  },
+  {
+    "timestamp": "2025-11-05T17:21:33.405Z",
+    "firstSystem": "coloured",
+    "trial1": {
+      "system": "coloured",
+      "prompt": "Book a table for 6 at 5PM",
+      "duration": 5625
+    },
+    "trial2": {
+      "system": "text",
+      "prompt": "Book a table for 2 at 9PM",
+      "duration": 4581
+    }
+  },
+  {
+    "timestamp": "2025-11-05T17:33:34.122Z",
+    "firstSystem": "coloured",
+    "trial1": {
+      "system": "coloured",
+      "prompt": "Book a table for 6 at 7PM",
+      "duration": 16700
+    },
+    "trial2": {
+      "system": "text",
+      "prompt": "Book a table for 6 at 9PM",
+      "duration": 9588
+    }
+  },
+  {
+    "timestamp": "2025-11-05T17:39:08.546Z",
+    "firstSystem": "text",
+    "trial1": {
+      "system": "text",
+      "prompt": "Book a table for 6 at 6PM",
+      "duration": 8851
+    },
+    "trial2": {
+      "system": "coloured",
+      "prompt": "Book a table for 4 at 9PM",
+      "duration": 7613
+    }
+  },
+  {
+    "timestamp": "2025-11-05T17:49:21.110Z",
+    "firstSystem": "coloured",
+    "trial1": {
+      "system": "coloured",
+      "prompt": "Book a table for 6 at 7PM",
+      "duration": 7619
+    },
+    "trial2": {
+      "system": "text",
+      "prompt": "Book a table for 4 at 6PM",
+      "duration": 6197
+    }
+  },
+  {
+    "timestamp": "2025-11-05T17:59:46.270Z",
+    "firstSystem": "coloured",
+    "trial1": {
+      "system": "coloured",
+      "prompt": "Book a table for 6 at 5PM",
+      "duration": 6177
+    },
+    "trial2": {
+      "system": "text",
+      "prompt": "Book a table for 6 at 9PM",
+      "duration": 35044
+    }
+  },
+  {
+    "timestamp": "2025-11-05T18:01:04.174Z",
+    "firstSystem": "coloured",
+    "trial1": {
+      "system": "coloured",
+      "prompt": "Book a table for 6 at 7PM",
+      "duration": 41237
+    },
+    "trial2": {
+      "system": "text",
+      "prompt": "Book a table for 6 at 9PM",
+      "duration": 7603
+    }
+  },
+  {
+    "timestamp": "2025-11-05T18:01:48.842Z",
+    "firstSystem": "coloured",
+    "trial1": {
+      "system": "coloured",
+      "prompt": "Book a table for 6 at 8:30PM",
+      "duration": 6060
+    },
+    "trial2": {
+      "system": "text",
+      "prompt": "Book a table for 6 at 8:30PM",
+      "duration": 6575
+    }
+  },
+  {
+    "timestamp": "2025-11-05T18:02:17.156Z",
+    "firstSystem": "text",
+    "trial1": {
+      "system": "text",
+      "prompt": "Book a table for 6 at 6:30PM",
+      "duration": 5665
+    },
+    "trial2": {
+      "system": "coloured",
+      "prompt": "Book a table for 4 at 5PM",
+      "duration": 4344
+    }
+  },
+  {
+    "timestamp": "2025-11-05T18:05:27.266Z",
+    "firstSystem": "text",
+    "trial1": {
+      "system": "text",
+      "prompt": "Book a table for 6 at 6:30PM",
+      "duration": 4073
+    },
+    "trial2": {
+      "system": "coloured",
+      "prompt": "Book a table for 4 at 6PM",
+      "duration": 3436
+    }
+  }
+]
