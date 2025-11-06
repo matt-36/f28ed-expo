@@ -1,0 +1,92 @@
+================================================================================
+EXPERIMENT RESULTS ANALYSIS REPORT
+Comparison of Text vs Coloured Booking Systems
+Generated: 2025-11-06 16:05:49
+================================================================================
+
+1. OVERALL PERFORMANCE STATISTICS
+--------------------------------------------------------------------------------
+          count      mean  median      std   min    max
+system                                                 
+coloured     33  10011.79  8355.0  4742.31  3594  23864
+text         33  11132.18  9701.0  4959.29  3667  25060
+
+KEY FINDING:
+The COLOURED system was faster by 1120.39ms (10.1%)
+  - Text mean: 11132.18ms
+  - Coloured mean: 10011.79ms
+
+
+2. PERFORMANCE BY ORDER POSITION
+--------------------------------------------------------------------------------
+                         count      mean   median      std
+order_position system                                     
+first          coloured     16  10750.75  10167.0  4903.71
+               text         17  12929.24  10639.0  5316.31
+second         coloured     17   9316.29   8033.0  4623.38
+               text         16   9222.81   8798.5  3843.47
+
+3. PERFORMANCE WHEN SYSTEM APPEARS FIRST
+--------------------------------------------------------------------------------
+          count      mean   median      std
+system                                     
+coloured     16  10750.75  10167.0  4903.71
+text         17  12929.24  10639.0  5316.31
+
+4. PERFORMANCE WHEN SYSTEM APPEARS SECOND
+--------------------------------------------------------------------------------
+          count     mean  median      std
+system                                   
+coloured     17  9316.29  8033.0  4623.38
+text         16  9222.81  8798.5  3843.47
+
+5. ORDER EFFECTS (Learning/Fatigue)
+--------------------------------------------------------------------------------
+
+TEXT System:
+  First trial mean:  12929.24ms
+  Second trial mean: 9222.81ms
+  Difference:        -3706.42ms (-28.7%)
+  → Users were FASTER on second trial (learning effect)
+
+COLOURED System:
+  First trial mean:  10750.75ms
+  Second trial mean: 9316.29ms
+  Difference:        -1434.46ms (-13.3%)
+  → Users were FASTER on second trial (learning effect)
+
+
+6. PERFORMANCE WHEN COLOURED SYSTEM IS PRESENTED FIRST
+--------------------------------------------------------------------------------
+          count      mean   median
+system                            
+coloured     16  10750.75  10167.0
+text         16   9222.81   8798.5
+
+7. PERFORMANCE WHEN TEXT SYSTEM IS PRESENTED FIRST
+--------------------------------------------------------------------------------
+          count      mean   median
+system                            
+coloured     17   9316.29   8033.0
+text         17  12929.24  10639.0
+
+8. EXPERIMENT DETAILS
+--------------------------------------------------------------------------------
+Total experiments conducted: 33
+Total trials: 66
+Text system trials: 33
+Coloured system trials: 33
+Experiments starting with text: 17
+Experiments starting with coloured: 16
+
+
+9. CONCLUSIONS AND INSIGHTS
+--------------------------------------------------------------------------------
+• Overall, the COLOURED system performed better (faster completion times)
+• The TEXT system showed stronger order effects
+• Both systems showed learning effects (faster on second trial)
+• COLOURED system showed more consistent performance (lower std dev: 4742.31ms)
+
+================================================================================
+END OF REPORT
+================================================================================
